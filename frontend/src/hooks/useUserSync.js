@@ -8,8 +8,7 @@ function useUserSync() {
     const { user } = useUser();
 
     const { mutate: syncUserMutation, isPending, isSuccess } = useMutation({ mutationFn: syncUser });
-
-    
+   
   useEffect(() => {
     if (isSignedIn && user && !isPending && !isSuccess) {
       syncUserMutation({
