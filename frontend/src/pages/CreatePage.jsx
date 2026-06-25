@@ -1,5 +1,5 @@
 import { Link, useNavigate } from "react-router";
-import { useCreateProduct } from "../hooks/useProduct";
+import { useCreateProduct } from "../hooks/useProducts";
 import { useState } from "react";
 import { ArrowLeftIcon, FileTextIcon, ImageIcon, SparklesIcon, TypeIcon } from "lucide-react";
 
